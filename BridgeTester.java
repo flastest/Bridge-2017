@@ -20,7 +20,7 @@ public class BridgeTester{
 	
 		Table table = new Table();
 		System.out.println("\n\n");
-		game.ThePlay(table);
+		//game.ThePlay(table);
 		table.setTable(game.north.whatToLead(),0);
 		table.setTable(game.east.whatCardToPlay(table, game),1);
 		table.setTable(game.south.whatCardToPlay(table, game),2);
